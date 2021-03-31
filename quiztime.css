@@ -1,0 +1,55 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
+    color: moccasin;
+    background-color: skyblue;
+    text-align:center
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: red;
+    text-align:center
+}
+
+a {
+    text-decoration: none;
+    color: teal;
+    text-align:center
+}
+
+button {
+    background-color: blue; /* Green */
+    border: none;
+    color: bisque;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+.q1right {
+    background-color: green;
+    color: greenyellow;
+}
+.q1wrong {
+    background-color: red;
+    color: tomato;
+}
+button.Red{
+    background-color: firebrick;
+    color: linen;
+}
+button.Green{
+    background-color: limegreen;
+    color: linen;
+}
